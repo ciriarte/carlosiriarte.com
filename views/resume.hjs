@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="{{description}}" />
+<meta name="author" content="{{fullname}}" />
+<meta name="geo.position" content="334.04639°N 118.44722°W">
+<meta name="geo.placename" content="West LA!">
+<meta name="geo.region" content="us-ca">
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
+
+<title>{{fullname}} &mdash; Technical Architect &amp; Technology Dissident</title>
+
+<link rel="stylesheet" href="/public/styles/styles.css" type="text/css" media="screen" />
+<!--[if lte IE 8 ]>
+<link rel="stylesheet" href="/public/styles/styles-ie8.css" type="text/css" media="screen" />
+<![endif]-->
+<link rel="stylesheet" href="/public/styles/home.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/public/styles/home-devices.css" type="text/css" media="screen and (min-device-width: 641px)" />
+<link rel="stylesheet" href="/public/styles/home-iphone.css" type="text/css" media="screen and (max-device-width: 480px)" />
+<!--[if lte IE 8 ]>
+<link rel="stylesheet" href="/public/styles/home-ie8.css" type="text/css" media="screen" />
+<![endif]-->
+<script src="/public/scripts/jquery-1.5.2.min.js"></script>
+<!--[if lt IE 9]> 
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="/public/scripts/main.min.js"></script>
+</head>
+
+<!-- Begin Wrapper -->
+<div id="wrapper">
+
+<!-- Begin Content Area -->
+<div id="content">
+
+<!-- Begin Header -->
+<header>
+
+<!-- Begin Contact Section -->
+<section id="contact-details">
+<div itemscope itemtype="http://schema.org/Person">
+
+<!-- Begin Profile Image Section -->
+<div class="header_1">
+<img src="images/profile.jpg" itemprop="image" width="250" height="250" alt="{{fullname}}" />
+</div>
+<!-- End Profile Image Section -->
+
+<!-- Begin Profile Information Section -->
+<div class="header_2">
+
+<h1><span itemprop="name">{{fullname}}</span></h1>
+<h3><span itemprop="jobTitle">{{current_position}}</span></h3>
+
+<!-- Begin PostalAddress Schema -->
+<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+<ul class="info_1">
+<li class="address"><span itemprop="streetAddress">{{streetAddress}}</span>, <span itemprop="addressLocality">{{addressLocality}}</span>, <span itemprop="addressRegion">{{addressRegion}}</span>, <span itemprop="postalCode">{{addressPostalCode}}</span>  <span itemprop="addressCountry">{{addressCountry}}</span></li>
+</ul>
+</div>
+<!-- End PostalAddress Schema -->
+
+<ul class="info_2">
+<li class="phone"><span itemprop="telephone">{{telephone}}</span></li>
+<li class="email"><a href="mailto:me@carlosiriarte.com" itemprop="email">me@carlosiriarte.com</a></li>
+<li class="site_url"><a rel="me" itemprop="url" href="http://carlosiriarte.com" title="carlosiriarte.com">carlosiriarte.com</a></li>
+<li class="twitter"><a rel="me" itemprop="url" href="http://twitter.com/ciriarte" title="{{follow_twitter}}">@ciriarte</a></li>
+</ul>
+
+</div>
+<!-- End Profile Information Section -->
+
+</div>
+</section>
+<!-- End Contact Section -->
+
+</header>
+<!-- End Header -->
+
+<div class="clear">&nbsp;</div>
+
+<!-- Begin Profile Section -->
+<dl>
+<dt>{{profile}}:</dt>
+<dd>
+
+<section class="summary">
+{{summary}}
+</section>
+
+</dd>
+</dl>
+<!-- End Profile Section -->
+
+<!-- Begin Specialties Section -->
+<dl>
+<dt>Specialties:</dt>
+<dd>
+
+<section class="specialties">
+{{specialties}}
+</section>
+
+</dd>
+</dl>
+<!-- End Specialties Section -->
+
+<div class="clear">&nbsp;</div>
+
+<!-- Begin Skills Section -->
+<div itemscope itemtype="http://schema.org/ItemList">
+
+<dl>
+<dt itemprop="name">{{skills}}:</dt>
+<dd>
+
+<section id="skills">
+<ul class="list1">
+<li itemprop="itemListElement">C# 4.0</li>
+<li itemprop="itemListElement">JavaScript</li>
+<li itemprop="itemListElement">Git</li>
+</ul>
+<ul class="list2">
+<li itemprop="itemListElement">Vim</li>
+<li itemprop="itemListElement">Visual Studio 2012</li>
+<li itemprop="itemListElement">Vim</li>
+</ul>
+</section>
+
+</dd>
+</dl>
+
+</div>
+<!-- End Skills Section -->
+
+<div class="clear">&nbsp;</div>
+
+<!-- Begin Experience Section -->
+<dl>
+<dt>{{experience}}:</dt>
+
+<dd>
+
+<section id="experience">
+
+<!-- Position #1 -->
+<div itemscope itemtype="http://schema.org/Organization">
+
+<h2 class="top"><span itemprop="jobTitle">Lead Architect</span></h2>
+<p class="bus1"><span itemprop="name">Dial800</span></p>
+<p class="time">{{september}} 2008 &#45; {{present}}</p>
+
+<p itemprop="description">
+{{dial800_job_description}}
+</p>
+</div>
+
+<!-- Position #2 -->
+<div itemscope itemtype="http://schema.org/Organization">
+
+<h2><span itemprop="jobTitle">Sr. Software Engineer</span></h2>
+<p class="bus1"><span itemprop="name">Neoris</span></p>
+<p class="time">{{october}} 2006 &#45; {{september}} 2008</p>
+
+<p itemprop="description">
+{{neoris_job_description}}
+</p>
+
+</div>
+
+<!-- Position #3 -->
+<div itemscope itemtype="http://schema.org/Organization">
+
+<h2><span itemprop="jobTitle">Automation Engineer</span></h2>
+<p class="bus1"><span itemprop="name">Tesis de Mexico</span></p>
+<p class="time">{{march}} 2006 &#45; {{november}} 2007</p>
+
+<p itemprop="description">
+{{tesis_job_description}}
+</p>
+
+</div>
+
+<!-- Position #4 -->
+<div itemscope itemtype="http://schema.org/Organization">
+
+<h2><span itemprop="jobTitle">Teaching Assistant</span></h2>
+<p class="bus1"><span itemprop="name">ITESM</span></p>
+<p class="time">{{august}} 2005 &#45; {{october}} 2006</p>
+
+<p itemprop="description">
+{{itesm_job_description}}
+</p>
+
+</div>
+
+</section>
+
+</dd>
+</dl>
+<!-- End Experience Section -->
+
+<div class="clear">&nbsp;</div>
+
+<!-- Begin Education Section -->
+<dl>
+<dt>Education:</dt>
+<dd>
+
+<section id="education">
+<div itemscope itemtype="http://schema.org/EducationalOrganization">
+
+<p class="bus1"><span itemprop="name">Tecnológico de Monterrey</span></p>
+
+<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+<span itemprop="streetAddress">Ave. Eugenio Garza Sada 2501 Sur, Col. Tecnológico</span>
+<br />
+<span itemprop="addressLocality">Monterrey</span>, <span itemprop="addressRegion">Nuevo Le&oacute;n</span>, <span itemprop="postalCode">64849</span>  <span itemprop="addressCountry">M&eacute;xico</span>
+</div>
+
+<p class="summary"><span itemprop="name">B.Sc. Mechatronics</span></p>
+<p class="time">{{august}} 2000 &#45; {{december}} 2005</p>
+
+<p class="edu-info">
+<a itemprop="url" href="http://www.itesm.edu/" target="_blank" title="Tecnol&oacute;gico de Monterrey">www.itesm.edu</a>
+</p>
+
+</div>
+</section>
+
+</dd>
+</dl>
+<!-- End Education Section -->
+
+<div class="clear">&nbsp;</div>
+
+<!-- Begin Footer -->
+<footer id="footer">
+
+<!-- Begin Footer Content -->
+<div class="footer_content">
+
+<!-- Begin Social Media and Download Links -->
+<div itemscope itemtype="http://schema.org/Person">
+
+<ul class="icons_1">
+<li><a rel="author" itemprop="url" href="https://profiles.google.com/jwagner719" title="Google Profile"><img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32" alt="Google Profile"></a></li>
+<li><a rel="me" itemprop="url" href="http://dribbble.com/" title="Dribbble"><img src="images/dribbble.png" width="32" height="32" alt="Dribbble" /></a></li>
+<li><a rel="me" itemprop="url" href="http://www.linkedin.com/" title="LinkedIn"><img src="images/linkedin.png" width="32" height="32" alt="LinkedIn" /></a></li>
+<li><a rel="me" itemprop="url" href="http://www.facebook.com/" title="Facebook"><img src="images/facebook.png" width="32" height="32" alt="Facebook" /></a></li>
+<li><a rel="me" itemprop="url" href="http://www.flickr.com/" title="Flickr"><img src="images/flickr.png" width="32" height="32" alt="Flickr" /></a></li>
+<li><a rel="me" itemprop="url" href="http://twitter.com/" title="Follow Me on Twitter!"><img src="images/twitter.png" width="32" height="32" alt="Follow Me on Twitter!" /></a></li>
+</ul>
+
+<ul class="icons_2">
+<li><a href="resume.pdf" title="Download Resume PDF"><img src="images/download.png" width="48" height="48" alt="Download Resume PDF" /></a></li>
+</ul>
+
+</div>
+<!-- End Social Media and Download Links -->
+
+</div>
+<!-- End Footer Content -->
+
+<div class="credits">
+Social Icons by <a href="http://paulrobertlloyd.com/2009/06/social_media_icons" target="_blank" title="Paul Robert Lloyd">Paul Robert Lloyd</a>, Profile &amp; Download Icons by <a href="http://dryicons.com/" target="_blank" title="DryIcons">DryIcons</a>, Phone Icon by <a href="http://www.comfi.com/telecom-icons/" target="_blank" title="ComFi Telecom">ComFi Telecom</a>, Profile Image User Symbol by <a href="http://thenounproject.com/" target="_blank" title="The Noun Project">The Noun Project</a>.
+<br />
+All used under a Creative Commons Attribution-ShareAlike license: <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" title="Creative Commons Attribution-ShareAlike license">http://creativecommons.org/licenses/by-sa/3.0/</a>
+</div>
+
+</footer>
+<!-- End Footer -->
+
+</div>
+<!-- End Content -->
+
+</div>
+<!-- End Wrapper -->
+
+</body>
+</html>
