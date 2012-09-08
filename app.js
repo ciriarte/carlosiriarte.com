@@ -1,20 +1,19 @@
-
 /**
  * Module dependencies.
  */
 
 var express = require('express')
-  , i18n    = require('i18n')
-  , routes  = require('./routes')
-  , http    = require('http')
-  , path    = require('path');
+, i18n    = require('i18n')
+, routes  = require('./routes')
+, http    = require('http')
+, path    = require('path');
 
 i18n.configure({
-    // setup some locales - other locales default to en silently
-    locales:['en', 'es', 'de'],
+  // setup some locales - other locales default to en silently
+  locales:['en', 'es', 'de'],
 
-    // where to register __() and __n() to, might be "global" if you know what you are doing
-    register: global
+  // where to register __() and __n() to, might be "global" if you know what you are doing
+  register: global
 });
 
 var app = express();

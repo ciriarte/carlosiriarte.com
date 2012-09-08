@@ -6,7 +6,7 @@
 	"+1 (310) 990-7882": "+1 (310) 990-7882",
 	"U.S.A.": "U.S.A.",
 	"Los Angeles": "Los Angeles",
-	"California": "California",
+	"California": "CA",
 	"Follow me on Twitter": "Follow me on Twitter",
 	"409 S Fuller Ave.": "409 S Fuller Ave.",
 	"summary": "I am looking forward to grow my expertise on mobile development and ubiquitous computing, while still having a chance to develop soft skills in a multicultural environment. Most of my experience is based on distributed applications, client/server model and recently medium sized web applications. Although I am very biased towards Microsoft's technologies, I continuously use OSS as my development stack for my personal needs/hobbies.",
@@ -25,5 +25,8 @@
 	"neoris_job_description": "C# UDP/Multicast server to track stock market quotes in realtime, and exposing them through a custom PubSub framework for HTTP clients. C++ Development with ACE Framework, tracking assets via RFID tags.",
 	"tesis_job_description": "- Outsourced to Neoris, recruited to implement a ﬂexible, Web-based tool for locating and viewing asset or people positioning in real-time. - Development under the QNX Neutrino platform, as well as Mandriva Linux using Trolltech’s QT application development libraries.",
 	"volkswagen_job_description": "Worked on the design and implementation of software for the measurement of the springback and strain ﬁeld for simple deformed bodies",
-	"October": "October"
+	"October": "October",
+	"february": "february",
+	"Mechatronics Engineering, B.Sc.": "Mechatronics Engineering, B.Sc.",
+	"Lead Architect": "Lead Architect"
 }

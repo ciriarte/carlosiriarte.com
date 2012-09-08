@@ -7,7 +7,7 @@ exports.index = function(req, res){
   res.render('resume', { 
   	fullname: __('Carlos Iriarte'),
     description: __('Technical Architect &amp; Technology Dissident'),
-  	current_position: __('Lead Architect @ Dial800'),
+  	current_position: __('Lead Architect'),
     telephone: __('+1 (310) 990-7882'),
     streetAddress: __('409 S Fuller Ave.'),
     addressLocality: __('Los Angeles'),
@@ -20,6 +20,7 @@ exports.index = function(req, res){
     specialties: __('specialties'),
     skills: __('Skills'),
     experience: __('Experience'),
+    february: __('february'),
     september: __('September'),
     october: __('October'),
     august: __('August'),
@@ -30,6 +31,7 @@ exports.index = function(req, res){
     itesm_job_description: __('itesm_job_description'),
     dial800_job_description: __('dial800_job_description'),
     tesis_job_description: __('tesis_job_description'),
-    volkswagen_job_description: __('volkswagen_job_description')
+    volkswagen_job_description: __('volkswagen_job_description'),
+    major: __('Mechatronics Engineering, B.Sc.')
   });
 };
