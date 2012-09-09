@@ -11,7 +11,7 @@
 	"409 S Fuller Ave.": "409 S Fuller Ave.",
 	"summary": "I am looking forward to grow my expertise on mobile development and ubiquitous computing, while still having a chance to develop soft skills in a multicultural environment. Most of my experience is based on distributed applications, client/server model and recently medium sized web applications. Although I am very biased towards Microsoft's technologies, I continuously use OSS as my development stack for my personal needs/hobbies.",
 	"specialties": "Generalist engineer with strong focus on distributed systems. Particularly interested in client/server and peer to peer networks, mobile computing. C++, C#, python, computer graphics and physical phenomena simulation (CAD, CAM, rapid prototyping) and industrial automation.",
-	"Profile": "Profile",
+	"about_me": "About me",
 	"Skills": "Skills",
 	"Experience": "Experience",
 	"March": "March",
@@ -28,5 +28,6 @@
 	"October": "October",
 	"february": "february",
 	"Mechatronics Engineering, B.Sc.": "Mechatronics Engineering, B.Sc.",
-	"Lead Architect": "Lead Architect"
+	"Lead Architect": "Lead Architect",
+	"About Me": "About Me"
 }

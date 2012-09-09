@@ -15,7 +15,7 @@ exports.index = function(req, res){
     addressCountry: __('U.S.A.'),
     postalCode: __('90036'),
     follow_twitter: __('Follow me on Twitter'),
-    profile: __('Profile'),
+    aboutMe: __('About Me'),
     summary: __('summary'),
     specialties: __('specialties'),
     skills: __('Skills'),
