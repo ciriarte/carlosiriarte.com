@@ -1,3 +1,32 @@
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700,400italic);
+
+body
+{
+  background-image: url('/img/retina_wood.png');
+}
+
+.row {
+  background-color: white;
+}
+
+h1,h2,h3,h4,h5,h6,p,a {
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+a {
+color: #C00;
+}
+
+a:hover{
+  color: #800;
+}
+
+.nav-list > .active > a, .nav-list > .active > a:hover {
+color: white;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+background-color: rgba(204, 0, 0, 0.57);
+}
+
 /* Skills badges */
 
 .skills li {

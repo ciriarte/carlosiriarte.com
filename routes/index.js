@@ -30,6 +30,7 @@ exports.index = function(req, res){
     december: __('December'),
     itesm_job_description: __('itesm_job_description'),
     dial800_job_description: __('dial800_job_description'),
+    neoris_job_description: __('neoris_job_description'),
     tesis_job_description: __('tesis_job_description'),
     volkswagen_job_description: __('volkswagen_job_description'),
     major: __('Mechatronics Engineering, B.Sc.')
