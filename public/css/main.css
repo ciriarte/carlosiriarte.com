@@ -107,7 +107,6 @@ ol, ul {
 }
 .cv-sidenav .active .icon-chevron-right,
 .cv-sidenav .active a:hover .icon-chevron-right {
-  background-image: url(../img/glyphicons-halflings-white.png);
   opacity: 1;
 }
 .cv-sidenav.affix {
