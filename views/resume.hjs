@@ -18,6 +18,7 @@
   }
   </style>
   <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
   <link rel="stylesheet" href="css/main.css">
   <script src="js/vendor/jquery-1.8.0.min.js"></script>
   <script src="js/vendor/bootstrap.min.js"></script>
@@ -183,11 +184,11 @@
             </div>
           </div>
           <div class="row">
-            <div class="navbar">
+            <div class="navbar navbar-bottom">
               <div class="navbar-inner">
                 <ul class="nav pull-right">
-                  <li><a class="url" rel="me" href="http://twitter.com/ciriarte"><i class="icon-twitter"></i>Follow me at @ciriarte</a></li>
-                  <li><a class="url" rel="me" href="http://github.com/ciriarte"><i class="icon-github"></i>Follow me at ciriarte</a></li>           
+                  <li><a class="url" rel="me" href="http://twitter.com/ciriarte"><i class="icon-twitter"></i> Follow me!</a></li>
+                  <li><a class="url" rel="me" href="http://github.com/ciriarte"><i class="icon-github"></i> Fork me!</a></li>           
                 </ul>
               </div>
             </div>
