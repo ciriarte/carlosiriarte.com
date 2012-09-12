@@ -11,9 +11,10 @@
 	"409 S Fuller Ave.": "409 S Fuller Ave.",
 	"summary": "I am looking forward to grow my expertise on mobile development and ubiquitous computing, while still having a chance to develop soft skills in a multicultural environment. Most of my experience is based on distributed applications, client/server model and recently medium sized web applications. Although I am very biased towards Microsoft's technologies, I continuously use OSS as my development stack for my personal needs/hobbies.",
 	"specialties": "Generalist engineer with strong focus on distributed systems. Particularly interested in client/server and peer to peer networks, mobile computing. C++, C#, python, computer graphics and physical phenomena simulation (CAD, CAM, rapid prototyping) and industrial automation.",
-	"about_me": "About me",
+	"about_me_title": "About me",
 	"Skills": "Skills",
-	"Experience": "Experience",
+	"education_title": "Education",
+	"experience_title": "Experience",
 	"March": "March",
 	"November": "November",
 	"December": "December",
@@ -29,5 +30,12 @@
 	"february": "february",
 	"Mechatronics Engineering, B.Sc.": "Mechatronics Engineering, B.Sc.",
 	"Lead Architect": "Lead Architect",
-	"About Me": "About Me"
+	"csharp_tooltip": "You could say this is the language I use daily",
+	"javascript_tooltip": "Or EcmaScript :) I actually love this little language",
+	"python_tooltip": "Isn't it pythonic... Don't you think? ♫ ...Alright you can shoot me now.",
+	"vim_tooltip": "Hey... 99% of the resumes out there list Office.",
+	"git_tooltip": "I also have experience with SVN, Visual Source Safe (yuck), TFS (yuck) and Mercurial. But I prefer git.",
+	"vs_studio_tooltip": "I've been actually using it since it was 2011, it didn't have colors and MENUS WEREN'T ALL CAPS",
+	"nodejs_tooltip": "Actually, this little site was made in node. And Express. And Bootstrap and...",
+	"specialties_title": "Specialties"
 }

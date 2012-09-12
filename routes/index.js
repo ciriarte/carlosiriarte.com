@@ -15,11 +15,13 @@ exports.index = function(req, res){
     addressCountry: __('U.S.A.'),
     postalCode: __('90036'),
     follow_twitter: __('Follow me on Twitter'),
-    aboutMe: __('About Me'),
+    about_me_title: __('about_me_title'),
     summary: __('summary'),
+    specialties_title: __('specialties_title'),
     specialties: __('specialties'),
     skills: __('Skills'),
-    experience: __('Experience'),
+    experience_title: __('experience_title'),
+    education_title: __('education_title'),
     february: __('february'),
     september: __('September'),
     october: __('October'),
@@ -33,6 +35,13 @@ exports.index = function(req, res){
     neoris_job_description: __('neoris_job_description'),
     tesis_job_description: __('tesis_job_description'),
     volkswagen_job_description: __('volkswagen_job_description'),
-    major: __('Mechatronics Engineering, B.Sc.')
+    major: __('Mechatronics Engineering, B.Sc.'),
+    csharp_tooltip: __('csharp_tooltip'),
+    javascript_tooltip: __('javascript_tooltip'),
+    python_tooltip: __('python_tooltip'),
+    vim_tooltip: __('vim_tooltip'),
+    git_tooltip: __('git_tooltip'),
+    vs_studio_tooltip: __('vs_studio_tooltip'),
+    nodejs_tooltip: __('nodejs_tooltip')
   });
 };
