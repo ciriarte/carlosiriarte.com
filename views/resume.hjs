@@ -34,7 +34,7 @@
                 <div class="container">
                   <a id="carlos-iriarte" class="fn n brand" href="/"><span class="given-name">Carlos</span> <span class="family-name">Iriarte</span></a>
                   <ul class="nav pull-right">
-                    <li>
+                    <li class="hidden-phone">
                       <a class="adr" href="http://en.wikipedia.org/wiki/Los_Angeles"><span>
                         <i class="icon-globe"></i>
                         I live in
