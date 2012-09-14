@@ -35,14 +35,14 @@
                   <a id="carlos-iriarte" class="fn n brand" href="/"><span class="given-name">Carlos</span> <span class="family-name">Iriarte</span></a>
                   <ul class="nav pull-right">
                     <li class="hidden-phone">
-                      <a class="adr" href="http://en.wikipedia.org/wiki/Los_Angeles"><span>
+                      <a class="adr" href="http://en.wikipedia.org/wiki/Los_Angeles" target="_blank"><span>
                         <i class="icon-globe"></i>
                         I live in
                         <span class="locality">{{addressLocality}}</span>, <span class="region">{{addressRegion}}</span>
                       </span>
                     </a>
                   </li>
-                  <li><a class="email" rel="me" href="mailto:me@carlosiriarte.com" target="_blank"><i class="icon-envelope"></i> me</a></li>
+                  <li><a class="email" rel="me" href="mailto:me@carlosiriarte.com"><i class="icon-envelope"></i> me</a></li>
                 </ul>
               </div>
             </address>
