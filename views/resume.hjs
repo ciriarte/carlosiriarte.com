@@ -89,7 +89,7 @@
               </ul>
               <h1 id="experience">{{experience}}</h1>
               <ol class="vcalendar">
-                <li class="experience vevent" itemscope itemtype="//schema.org/Organization">
+                <li class="experience vevent" itemscope itemtype="http://schema.org/Organization">
                   <span class="vcard">
                     <a href="#carlos-iriarte" class="include" title="Carlos Iriarte"></a>
                     <h2 class="title" itemprop="jobTitle">Lead Architect <small class="org" itemprop="name">Dial800</small></h2>
@@ -101,7 +101,7 @@
                     {{dial800_job_description}}
                   </p>
                 </li>
-                <li class="experience vevent" itemscope itemtype="//schema.org/Organization">
+                <li class="experience vevent" itemscope itemtype="http://schema.org/Organization">
                   <span class="vcard">
                     <a href="#carlos-iriarte" class="include" title="Carlos Iriarte"></a>
                     <h2 class="title" itemprop="jobTitle">Sr. Software Engineer <small class="org" itemprop="name">Neoris</small></h2>
@@ -113,7 +113,7 @@
                     {{neoris_job_description}}
                   </p>
                 </li>
-                <li class="experience vevent" itemscope itemtype="//schema.org/Organization">
+                <li class="experience vevent" itemscope itemtype="http://schema.org/Organization">
                   <span class="vcard">
                     <a href="#carlos-iriarte" class="include" title="Carlos Iriarte"></a>
                     <h2 class="title" itemprop="jobTitle">Automation Engineer <small class="org" itemprop="name">Tesis de Mexico</small></h2>
@@ -125,7 +125,7 @@
                     {{tesis_job_description}}
                   </p>
                 </li>
-                <li class="experience vevent" itemscope itemtype="//schema.org/Organization">
+                <li class="experience vevent" itemscope itemtype="http://schema.org/Organization">
                   <span class="vcard">
                     <a href="#carlos-iriarte" class="include" title="Carlos Iriarte"></a>
                     <h2 class="title" itemprop="jobTitle">Teaching Assistant <small class="org" itemprop="name">Tecnol&oacute;gico de Monterrey</small></h2>
@@ -136,7 +136,7 @@
                     {{itesm_job_description}}
                   </p>
                 </li>
-                <li class="experience vevent" itemscope itemtype="//schema.org/Organization">
+                <li class="experience vevent" itemscope itemtype="http://schema.org/Organization">
                   <span class="vcard">
                     <a href="#carlos-iriarte" class="include" title="Carlos Iriarte"></a>
                     <h2 class="title" itemprop="jobTitle">Intern <small class="org" itemprop="name">Volkswagen</small></h2>
