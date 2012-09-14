@@ -26,23 +26,23 @@
 </head>
 <body data-spy="scroll" data-target=".cv-sidebar">
     <!--[if lt IE 7]>
-          <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+          <p class="chromeframe">You are using an outdated browser. <a href="//browsehappy.com/">Upgrade your browser today</a> or <a href="//www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
           <![endif]-->
-          <div class="hresume">
+          <div itemscope itemtype="http://schema.org/Person">
             <div class="navbar navbar-fixed-top">
               <address class="navbar-inner vcard">
                 <div class="container">
-                  <a id="carlos-iriarte" class="fn n brand" href="/"><span class="given-name">Carlos</span> <span class="family-name">Iriarte</span></a>
+                  <a id="carlos-iriarte" class="fn n brand" href="/"><span itemprop="name">Carlos Iriarte</span></a>
                   <ul class="nav pull-right">
                     <li class="hidden-phone">
-                      <a class="adr" href="http://en.wikipedia.org/wiki/Los_Angeles" target="_blank"><span>
+                      <a class="adr" href="//en.wikipedia.org/wiki/Los_Angeles" target="_blank"><span>
                         <i class="icon-globe"></i>
                         I live in
                         <span class="locality">{{addressLocality}}</span>, <span class="region">{{addressRegion}}</span>
                       </span>
                     </a>
                   </li>
-                  <li><a class="email" rel="me" href="mailto:me@carlosiriarte.com"><i class="icon-envelope"></i> me</a></li>
+                  <li><a class="email" rel="me" href="mailto:me@carlosiriarte.com" itemprop="email"><i class="icon-envelope"></i> me</a></li>
                 </ul>
               </div>
             </address>
@@ -72,39 +72,39 @@
               </dl>
             </div>
             <div class="span3">
-              <img src="img/profile.jpeg" class="photo img-polaroid"  width="260" height="330" alt="Carlos Iriarte" />
+              <img src="img/profile.jpeg" class="img-polaroid"  width="260" height="330" alt="Carlos Iriarte" itemprop="image"/>
             </div>
           </div>
           <div class="row">
-            <div class="offset3 span9">
-              <h2>{{skills}}</h2>
+            <div itemscope itemtype="//schema.org/ItemList" class="offset3 span9">
+              <h2 itemprop="name">{{skills}}</h2>
               <ul class="skills">
-                <li><a href="http://www.ecma-international.org/publications/standards/Ecma-334.htm" class="skill" rel="tooltip" title="{{csharp_tooltip}}"><code>C#</code></a></li>
-                <li><a href="http://www.ecmascript.org/" class="skill" rel="tooltip" title="{{javascript_tooltip}}"><code>JavaScript</code></a></li>
-                <li><a href="http://www.python.org/" class="skill" rel="tooltip" title="{{python_tooltip}}"><code>Python</code></a></li>
-                <li><a href="http://git-scm.com/" class="skill" rel="tooltip" title="{{git_tooltip}}"><code>Git</code></a></li>
-                <li><a href="http://www.vim.org/" class="skill" rel="tooltip" title="{{vim_tooltip}}"><code>Vim</code></a></li>
-                <li><a href="http://www.microsoft.com/visualstudio/en-us" class="skill" rel="tooltip" title="{{vs_studio_tooltip}}"><code>Visual Studio 2012</code></a></li>
-                <li><a href="http://nodejs.org" class="skill" rel="tooltip" title="{{nodejs_tooltip}}"><code>nodejs</code></a></li>
+                <li itemprop="itemListElement"><a href="//www.ecma-international.org/publications/standards/Ecma-334.htm" class="skill" rel="tooltip" title="{{csharp_tooltip}}"><code>C#</code></a></li>
+                <li itemprop="itemListElement"><a href="//www.ecmascript.org/" class="skill" rel="tooltip" title="{{javascript_tooltip}}"><code>JavaScript</code></a></li>
+                <li itemprop="itemListElement"><a href="//www.python.org/" class="skill" rel="tooltip" title="{{python_tooltip}}"><code>Python</code></a></li>
+                <li itemprop="itemListElement"><a href="//git-scm.com/" class="skill" rel="tooltip" title="{{git_tooltip}}"><code>Git</code></a></li>
+                <li itemprop="itemListElement"><a href="//www.vim.org/" class="skill" rel="tooltip" title="{{vim_tooltip}}"><code>Vim</code></a></li>
+                <li itemprop="itemListElement"><a href="//www.microsoft.com/visualstudio/en-us" class="skill" rel="tooltip" title="{{vs_studio_tooltip}}"><code>Visual Studio 2012</code></a></li>
+                <li itemprop="itemListElement"><a href="//nodejs.org" class="skill" rel="tooltip" title="{{nodejs_tooltip}}"><code>nodejs</code></a></li>
               </ul>
               <h1 id="experience">{{experience}}</h1>
               <ol class="vcalendar">
-                <li class="experience vevent">
+                <li class="experience vevent" itemscope itemtype="//schema.org/Organization">
                   <span class="vcard">
                     <a href="#carlos-iriarte" class="include" title="Carlos Iriarte"></a>
-                    <h2 class="title">Lead Architect <small class="org">Dial800</small></h2>
+                    <h2 class="title" itemprop="jobTitle">Lead Architect <small class="org" itemprop="name">Dial800</small></h2>
 
                   </span>        
                   <span class="location">Los Angeles, California, U.S.A.</span>
                   <abbr class="dtstart" title="2008-09-19">{{september}} 2008</abbr> - <abbr title="2012-09-10">{{present}}</abbr>
-                  <p>
+                  <p itemprop="description">
                     {{dial800_job_description}}
                   </p>
                 </li>
-                <li class="experience vevent">
+                <li class="experience vevent" itemscope itemtype="//schema.org/Organization">
                   <span class="vcard">
                     <a href="#carlos-iriarte" class="include" title="Carlos Iriarte"></a>
-                    <h2 class="title">Sr. Software Engineer <small class="org">Neoris</small></h2>
+                    <h2 class="title" itemprop="jobTitle">Sr. Software Engineer <small class="org" itemprop="name">Neoris</small></h2>
 
                   </span>        
                   <span class="location">Monterrey, Nuevo Le&oacute;n, M&eacute;xico</span>
@@ -113,10 +113,10 @@
                     {{neoris_job_description}}
                   </p>
                 </li>
-                <li class="experience vevent">
+                <li class="experience vevent" itemscope itemtype="//schema.org/Organization">
                   <span class="vcard">
                     <a href="#carlos-iriarte" class="include" title="Carlos Iriarte"></a>
-                    <h2 class="title">Automation Engineer <small class="org">Tesis de Mexico</small></h2>
+                    <h2 class="title" itemprop="jobTitle">Automation Engineer <small class="org" itemprop="name">Tesis de Mexico</small></h2>
 
                   </span>
                   <span class="location">Monterrey, Nuevo Le&oacute;n, M&eacute;xico</span>
@@ -125,10 +125,10 @@
                     {{tesis_job_description}}
                   </p>
                 </li>
-                <li class="experience vevent">
+                <li class="experience vevent" itemscope itemtype="//schema.org/Organization">
                   <span class="vcard">
                     <a href="#carlos-iriarte" class="include" title="Carlos Iriarte"></a>
-                    <h2 class="title">Teaching Assistant <small class="org">Tecnol&oacute;gico de Monterrey</small></h2>
+                    <h2 class="title" itemprop="jobTitle">Teaching Assistant <small class="org" itemprop="name">Tecnol&oacute;gico de Monterrey</small></h2>
                   </span>
                   <span class="location">Monterrey, Nuevo Le&oacute;n, M&eacute;xico</span>
                   <abbr class="dtstart" title="2005-08-09">{{august}} 2008</abbr> - <abbr title="2006-12-10">{{december}} 2005</abbr>
@@ -136,10 +136,10 @@
                     {{itesm_job_description}}
                   </p>
                 </li>
-                <li class="experience vevent">
+                <li class="experience vevent" itemscope itemtype="//schema.org/Organization">
                   <span class="vcard">
                     <a href="#carlos-iriarte" class="include" title="Carlos Iriarte"></a>
-                    <h2 class="title">Intern <small class="org">Volkswagen</small></h2>
+                    <h2 class="title" itemprop="jobTitle">Intern <small class="org" itemprop="name">Volkswagen</small></h2>
                   </span>
                   <span class="location">Wolfsburg, Germarny</span>
                   <abbr class="dtstart" title="2003-08-08">{{august}} 2003</abbr> - <abbr title="2004-02-27">{{february}} 2004</abbr>
@@ -150,9 +150,9 @@
               </ol>
               <h1 id="education">Education <small>B.Sc. Mechatronics Engineering</small></h1>
               <ol>
-                <li class="education vevent">
+                <li class="education vevent" itemscope itemtype="http://schema.org/EducationalOrganization">
                   <div class="summary vcard">
-                    <a class="url fn org" href="http://www.itesm.edu/">Tecnol&oacute;gico de Monterrey</a>
+                    <a class="url fn org" href="//www.itesm.edu/" itemprop="name">Tecnol&oacute;gico de Monterrey</a>
                     <div class="adr">
                       <span class="locality">Monterrey</span>, 
                       <abbr class="region">Nuevo Le&oacute;n</abbr>
@@ -160,9 +160,9 @@
                   </div>
                   <abbr class="dtstart" title="2000-08-28">2000</abbr> - <abbr class="dtend" title="2005-10-12">2005</abbr>
                 </li>
-                <li class="education vevent">
+                <li class="education vevent" itemscope itemtype="http://schema.org/EducationalOrganization">
                   <div class="summary vcard">
-                    <a class="url fn org" href="http://www.grenoble-inp.fr/">Institut Polytechnique de Grenoble</a>
+                    <a class="url fn org" href="//www.grenoble-inp.fr/" itemprop="name">Institut Polytechnique de Grenoble</a>
                     <div class="adr">
                       <span class="locality">Grenoble</span>, 
                       <abbr class="country">France</abbr>
@@ -170,15 +170,15 @@
                   </div>
                   <abbr class="dtstart" title="2005-06-01">2005</abbr> - <abbr class="dtend" title="2005-08-1">2005</abbr>
                 </li>  
-                <li class="education vevent">
+                <li class="education vevent" itemscope itemtype="http://schema.org/EducationalOrganization">
                   <div class="summary vcard">
-                    <a class="url fn org" href="http://www.ostfalia.de/cms/de/campus/wf/index.html">Fachhochschule Braunschweig/Wolfenbuettel</a>
+                    <a class="url fn org" href="//www.ostfalia.de/cms/de/campus/wf/index.html" itemprop="name">Fachhochschule Braunschweig/Wolfenbuettel</a>
                     <div class="adr">
                       <span class="locality">Wolfenbuettel</span>, 
                       <abbr class="country">Germany</abbr>
                     </div>
                   </div>
-                  <abbr class="dtstart" title="2004-03-01">2004</abbr> - <abbr class="dtend" title="2003-10-12">2004</abbr>
+                  <abbr class="dtstart" title="2004-03-01">2004</abbr> - <abbr class="dtend" title="2004-10-12">2004</abbr>
                 </li>                   
               </ol>
             </div>
@@ -187,9 +187,9 @@
             <div class="navbar navbar-bottom">
               <div class="navbar-inner">
                 <ul class="nav pull-right">
-                  <li><a class="url" rel="me" href="http://twitter.com/ciriarte" target="_blank"><i class="icon-twitter"></i> Follow me!</a></li>
-                  <li><a class="url" rel="me" href="http://github.com/ciriarte" target="_blank"><i class="icon-github"></i> Fork me!</a></li>
-                  <li><a class="url" rel="me" href="https://plus.google.com/110488757177208439564?rel=author"><i class="icon-google-plus"></i> Circle me!</a></li> 
+                  <li><a itemprop="url" rel="me" href="//twitter.com/ciriarte" target="_blank"><i class="icon-twitter"></i> Follow me!</a></li>
+                  <li><a itemprop="url" rel="me" href="//github.com/ciriarte" target="_blank"><i class="icon-github"></i> Fork me!</a></li>
+                  <li><a itemprop="author" rel="me" href="//plus.google.com/110488757177208439564?rel=author" target="_blank"><i class="icon-google-plus"></i> Circle me!</a></li> 
                 </ul>
               </div>
             </div>
