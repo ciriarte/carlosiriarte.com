@@ -36,6 +36,14 @@ app.configure('development', function(){
   app.use(express.errorHandler());
 });
 
+app.all('/*', function(req, res, next) {
+  if (req.headers.host.match(/^www/) !== null ) {
+    res.redirect(301,'http://' + req.headers.host.replace(/^www\./, '') + req.url);
+  } else {
+    next();     
+  }
+})
+
 app.get('/', routes.index);
 
 http.createServer(app).listen(app.get('port'), function(){
