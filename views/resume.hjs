@@ -76,7 +76,7 @@
             </div>
           </div>
           <div class="row">
-            <div itemscope itemtype="//schema.org/ItemList" class="offset3 span9">
+            <div itemscope itemtype="http://schema.org/ItemList" class="offset3 span9">
               <h2 itemprop="name">{{skills}}</h2>
               <ul class="skills">
                 <li itemprop="itemListElement"><a href="//www.ecma-international.org/publications/standards/Ecma-334.htm" class="skill" rel="tooltip" title="{{csharp_tooltip}}"><code>C#</code></a></li>
