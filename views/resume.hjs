@@ -188,7 +188,8 @@
               <div class="navbar-inner">
                 <ul class="nav pull-right">
                   <li><a class="url" rel="me" href="http://twitter.com/ciriarte" target="_blank"><i class="icon-twitter"></i> Follow me!</a></li>
-                  <li><a class="url" rel="me" href="http://github.com/ciriarte" target="_blank"><i class="icon-github"></i> Fork me!</a></li> 
+                  <li><a class="url" rel="me" href="http://github.com/ciriarte" target="_blank"><i class="icon-github"></i> Fork me!</a></li>
+                  <li><a class="url" rel="me" href="https://plus.google.com/110488757177208439564?rel=author"><i class="icon-google-plus"></i> Circle me!</a></li> 
                 </ul>
               </div>
             </div>
