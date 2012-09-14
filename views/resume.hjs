@@ -42,7 +42,7 @@
                       </span>
                     </a>
                   </li>
-                  <li><a class="email" rel="me" href="mailto:me@carlosiriarte.com"><i class="icon-envelope"></i> me</a></li>
+                  <li><a class="email" rel="me" href="mailto:me@carlosiriarte.com" target="_blank"><i class="icon-envelope"></i> me</a></li>
                 </ul>
               </div>
             </address>
@@ -187,8 +187,8 @@
             <div class="navbar navbar-bottom">
               <div class="navbar-inner">
                 <ul class="nav pull-right">
-                  <li><a class="url" rel="me" href="http://twitter.com/ciriarte"><i class="icon-twitter"></i> Follow me!</a></li>
-                  <li><a class="url" rel="me" href="http://github.com/ciriarte"><i class="icon-github"></i> Fork me!</a></li>           
+                  <li><a class="url" rel="me" href="http://twitter.com/ciriarte" target="_blank"><i class="icon-twitter"></i> Follow me!</a></li>
+                  <li><a class="url" rel="me" href="http://github.com/ciriarte" target="_blank"><i class="icon-github"></i> Fork me!</a></li> 
                 </ul>
               </div>
             </div>

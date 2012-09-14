@@ -27,7 +27,7 @@
 	"tesis_job_description": "- Outsourced to Neoris, recruited to implement a ﬂexible, Web-based tool for locating and viewing asset or people positioning in real-time. - Development under the QNX Neutrino platform, as well as Mandriva Linux using Trolltech’s QT application development libraries.",
 	"volkswagen_job_description": "Worked on the design and implementation of software for the measurement of the springback and strain ﬁeld for simple deformed bodies",
 	"October": "October",
-	"february": "february",
+	"February": "February",
 	"Mechatronics Engineering, B.Sc.": "Mechatronics Engineering, B.Sc.",
 	"Lead Architect": "Lead Architect",
 	"csharp_tooltip": "You could say this is the language I use daily",
