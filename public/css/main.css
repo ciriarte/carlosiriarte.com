@@ -175,6 +175,10 @@ ol, ul {
     padding: 0;
   }
 
+  .navbar .brand {
+    margin-left: 10px;
+  }
+
   /* Sidenav */
   .cv-sidenav {
     width: auto;
@@ -210,6 +214,30 @@ ol, ul {
     background-image: none;
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  /* Disable background. Looks ugly when printing */
+  .navbar-inner {
+    background-image: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: 0;
+  }
+
+  .offset3.span6 {
+    width: 480px;
+    display: inline;
+    float: left;
+  }
+
+  .span3 {
+    float:right;
+    width: 200px;
+    display: inline;
+   /* position: absolute;
+    left: 580px;
+    top: 60px;*/
   }
 
   .cv-hidden-screen {
