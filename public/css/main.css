@@ -197,9 +197,6 @@ ol, ul {
   }
 }
 
-
-
-
-
-
-
+@media print {
+  background-image: none;
+}
