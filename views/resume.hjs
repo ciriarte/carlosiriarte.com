@@ -42,7 +42,9 @@
                       </span>
                     </a>
                   </li>
-                  <li><a class="email" rel="me" href="mailto:me@carlosiriarte.com" itemprop="email"><i class="icon-envelope"></i> me</a></li>
+                  <li class>
+                  <a class="email" rel="me" href="mailto:me@carlosiriarte.com" itemprop="email"><i class="icon-envelope"></i> me<span class="cv-hidden-screen">@carlosiriarte.com</span></a>
+                  </li>
                 </ul>
               </div>
             </address>

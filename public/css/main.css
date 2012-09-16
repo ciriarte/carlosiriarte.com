@@ -118,9 +118,13 @@ ol, ul {
   bottom: 270px;
 }
 
+.cv-hidden-screen {
+  display: none;
+}
+
 /* Desktop large
 ------------------------- */
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .cv-container {
     max-width: 970px;
   }
@@ -131,7 +135,7 @@ ol, ul {
 
 /* Desktop
 ------------------------- */
-@media (max-width: 980px) {
+@media screen and (max-width: 980px) {
   /* Unfloat brand */
   body > .navbar-fixed-top .brand {
     float: left;
@@ -150,7 +154,7 @@ ol, ul {
 
 /* Tablet to desktop
 ------------------------- */
-@media (min-width: 768px) and (max-width: 980px) {
+@media screen and (min-width: 768px) and (max-width: 980px) {
   /* Remove any padding from the body */
   body {
     padding: 0;
@@ -165,7 +169,7 @@ ol, ul {
 
 /* Tablet
 ------------------------- */
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   /* Remove any padding from the body */
   body {
     padding: 0;
@@ -185,10 +189,13 @@ ol, ul {
 
 /* Landscape phones
 ------------------------- */
-@media (max-width: 480px) {
-  /* Remove padding above jumbotron */
+@media screen and (max-width: 480px) {
   body {
     padding: 0;
+  }
+
+  .navbar .brand {
+    margin-left: 10px;
   }
 
   /* Change up some type stuff */
@@ -197,6 +204,15 @@ ol, ul {
   }
 }
 
+/* Printing */
 @media print {
-  background-image: none;
+  body {
+    background-image: none;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .cv-hidden-screen {
+    display: inline;
+  }
 }
