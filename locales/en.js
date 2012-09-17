@@ -33,7 +33,7 @@
 	"javascript_tooltip": "Or EcmaScript :) I actually love this little language",
 	"python_tooltip": "Isn't it pythonic... Don't you think? ♫ ...Alright you can shoot me now.",
 	"vim_tooltip": "Hey... 99% of the resumes out there list Office.",
-	"git_tooltip": "I also have experience with SVN, Visual Source Safe (yuck), TFS (yuck) and Mercurial. But I prefer git.",
+	"git_tooltip": "I also have experience with SVN, Visual Source Safe, TFS and Mercurial. But I prefer git.",
 	"vs_studio_tooltip": "I've been actually using it since it was 2011, it didn't have colors and MENUS WEREN'T ALL CAPS",
 	"nodejs_tooltip": "Actually, this little site was made in node. And Express. And Bootstrap and...",
 	"specialties_title": "Specialties",
