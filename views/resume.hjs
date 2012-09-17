@@ -133,7 +133,7 @@
                     <h2 class="title" itemprop="jobTitle">Teaching Assistant <small class="org" itemprop="name">Tecnol&oacute;gico de Monterrey</small></h2>
                   </span>
                   <span class="location">Monterrey, Nuevo Le&oacute;n, M&eacute;xico</span>
-                  <abbr class="dtstart" title="2005-08-09">{{august}} 2008</abbr> - <abbr title="2006-12-10">{{december}} 2005</abbr>
+                  <abbr class="dtstart" title="2005-08-09">{{august}} 2005</abbr> - <abbr title="2005-12-10">{{december}} 2005</abbr>
                   <p class="summary">
                     {{itesm_job_description}}
                   </p>

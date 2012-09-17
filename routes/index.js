@@ -22,6 +22,7 @@ exports.index = function(req, res){
     skills: __('Skills'),
     experience_title: __('experience_title'),
     education_title: __('education_title'),
+    january: __('january'),
     february: __('february'),
     september: __('September'),
     october: __('October'),

@@ -37,5 +37,6 @@
 	"vs_studio_tooltip": "I've been actually using it since it was 2011, it didn't have colors and MENUS WEREN'T ALL CAPS",
 	"nodejs_tooltip": "Actually, this little site was made in node. And Express. And Bootstrap and...",
 	"specialties_title": "Specialties",
-	"february": "February"
+	"february": "February",
+	"january": "January"
 }
