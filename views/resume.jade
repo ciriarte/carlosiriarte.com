@@ -1,0 +1,141 @@
+doctype 5
+//if lt IE 7
+  html.no-js.lt-ie9.lt-ie8.lt-ie7
+//if IE 7
+  html.no-js.lt-ie9.lt-ie8
+//if IE 8
+  html.no-js.lt-ie9
+//if gt IE 8
+  html.no-js
+head
+  title Carlos Iriarte's resume
+  meta(charset='utf-8')
+  meta(name='description', content=__i('Technical Architect &amp; Technology Dissident'))
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+  link(rel='stylesheet', href='css/bootstrap.css')
+  link(rel='stylesheet', href='css/bootstrap-responsive.min.css')
+  link(rel='stylesheet', href='css/font-awesome.css')
+  link(rel='stylesheet', href='css/main.css')
+  script(src='js/vendor/jquery-1.8.0.min.js')
+  script(src='js/vendor/bootstrap.min.js')
+  script(src='js/vendor/modernizr-2.6.1-respond-1.1.0.min.js')
+body(data-spy='scroll',data-target=".cv-sidebar")
+//if lt IE7
+  p.chromeframe You are using an outdated browser... 
+    a(href='//browsehappy.com') Upgrade you browser today.
+    |or 
+    a(href='//www.google.com/chromeframe/?redirect=true') install Google Chrome Frame.
+    |to better experience this site.
+div(itemscope,itemtype='http://schema.org/person')
+  div.navbar.navbar-fixed-top
+    address.navbar-inner
+      div.container
+        a#carlos-iriarte.brand(href='/')
+          span(itemprop='name'): |Carlos Iriarte
+        ul.nav.pull-right
+          li.hidden-phone
+            a(href='//en.wikipedia.org/wiki/Los_Angeles', target='_blank')
+              i.icon-globe
+              = __i('I live in Los Angeles, California')
+          li
+            a(href='mailto:me@carlosiriarte.com', rel='me', itemprop='email')
+              i.icon-envelope
+              | me
+              span.cv-hidden-screen: @carlosiriarte.com
+  .container
+    .row
+      .span3.hidden-phone
+        .cv-sidebar(data-spy='affix')
+          ul.nav.nav-list.cv-sidenav.affix
+            li.active: a(href='#aboutme')
+              i.icon-chevron-right
+              = __i('about_me_title')
+            li: a(href='#experience')
+              i.icon-chevron-right
+              = __i('experience_title')
+            li: a(href='#education')
+              i.icon-chevron-right
+              = __i('education_title')
+      .offset3.span6
+        h1.aboutme
+          = __i('about_me_title')
+        p.summary
+          = __i('summary')
+        h2 
+          = __i('specialties_title')
+        p
+          = __i('specialties')
+      .span3
+        img.img-polaroid(src='img/profile.jpeg', width='260px', height='330px', alt='Carlos Iriarte', itemprop='image')
+    .row
+      .offset3.span9(itemscope,itemtype='http://schema.org/itemlist')
+        h2(itemprop='name')
+          = __i('Skills')
+        ul.skills
+          li(itemprop='itemListElement'): a(href='//www.ecma-international.org/publications/standards/Ecma-334.htm', rel='tooltip', title=__i('csharp_tooltip')): code: | C#
+          li(itemprop='itemListElement'): a(href='//www.ecmascript.org/', rel='tooltip', title=__i('javascript_tooltip')): code: | JavaScript
+          li(itemprop='itemListElement'): a(href='//www.python.org', rel='tooltip', title=__i('python_tooltip')): code: | Python
+          li(itemprop='itemListElement'): a(href='//git-scm.com', rel='tooltip', title=__i('git_tooltip')): code: | Git
+          li(itemprop='itemListElement'): a(href='//www.vim.org', rel='tooltip', title=__i('vim_tooltip')): code: | Vim
+          li(itemprop='itemListElement'): a(href='//www.microsoft.com/visualstudio/en-us', rel='tooltip', title=__i('vs_studio_tooltip')): code: | Visual Studio 2012
+          li(itemprop='itemListElement'): a(href='//www.nodejs.org', rel='tooltip', title=__i('nodejs_tooltip')): code: | nodejs
+        section#experience
+          h1
+           = __i('Experience')
+          ul
+            li(itemscope, itemtype='http://schema.org/organization')
+              h2: | Lead Architect
+                small(itemprop='name')  Dial800 
+              |  Los Angeles, California, U.S.A. 
+              abbr(title='2008-09-19')
+                = __i('September 2008') 
+              |  - 
+              = __i('Present')
+              p
+                = __i('dial800_job_description')
+             li(itemscope, itemtype='http://schema.org/organization')
+              h2: | Sr. Software Engineer
+                small(itemprop='name')  Neoris 
+              |  Monterrey, Nuevo Le&oacute;n, M&eacute;xico 
+              abbr(title='2006-10-01')
+                = __i('October 2006') 
+              |  - 
+              abbr(title='2008-09-18')
+                = __i('September 2008')
+              p
+                = __i('neoris_job_description')
+            li(itemscope, itemtype='http://schema.org/organization')
+              h2: | Automation Engineer 
+                small(itemprop='name'): |  Tesis de M&eacute;xico
+              | Monterrey, Nuevo Le&oacute;n, M&eacute;xico 
+              abbr(title='2006-01-04')
+                = __i('January 2006')
+              |  - 
+              abbr(title='2006-10-01')
+                = __i('October 2006')
+              p
+                = __i('tesis_job_description')
+            li(itemscope, itemtype='http://schema.org/organization')
+              h2: | Teaching Assistant 
+                small(itemprop='name'): | Tecnol&oacute;gico de Monterrey
+              | Monterrey, Nuevo Le&oacute;n, M&eacute;xico 
+              abbr(title='2006-01-04')
+                = __i('January 2006') 
+              |  - 
+              abbr(title='2006-10-01')
+                = __i('October 2006')
+              p
+                = __i('itesm_job_description')
+            li(itemscope, itemtype='http://schema.org/organization')
+              h2: | Intern 
+                small(itemprop='name'): | Volkswagen, A.G.
+              | Wolfsburg, Niedersachsen, Germany 
+              abbr(title='2003-08-08')
+                = __i('August 2003')
+              |  - 
+              abbr(title='2004-02-27')
+                = __i('February 2004')
+              p
+                = __i('volkswagen_job_description')
+               
