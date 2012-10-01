@@ -47,5 +47,6 @@
 	"January 2006": "January 2006",
 	"October 2006": "October 2006",
 	"August 2003": "August 2003",
-	"February 2004": "February 2004"
+	"February 2004": "February 2004",
+	"Education": "Education"
 }
