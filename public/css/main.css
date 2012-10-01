@@ -3,6 +3,8 @@
 body
 {
   background-image: url('/img/retina_wood.png');
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 
 .row {
