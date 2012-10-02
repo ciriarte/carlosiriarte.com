@@ -47,5 +47,12 @@
 	"October 2006": "October 2006",
 	"August 2003": "August 2003",
 	"February 2004": "February 2004",
-	"Education": "Education"
+	"Education": "Education",
+	"ruby_tooltip": "rvm vs rbenv? rbenv!",
+	"sinatra_tooltip": "The microframework that inspired flask and nancy",
+	"padrino_tooltip": "Because I honestly prefer it to Rails...",
+	"freeswitch_tooltip": "One of the best OSS systems out there. WebRTC is coming!",
+	"sip_tooltip": "The bridge between telephony & the modern world",
+	"vxml_tooltip": "I seriously thought twice about listing it here. But hey, at least it's a standard",
+	"ccxml_tooltip": "And you thought you problems with major web browsers..."
 }

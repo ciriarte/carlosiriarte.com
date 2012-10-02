@@ -35,22 +35,15 @@ background-color: rgba(204, 0, 0, 0.57);
 
 /* Skills badges */
 
+.skills {
+  margin-left: 0;
+}
+
 .skills li {
   display: inline;
   list-style-type: none;
   padding-right: 1em;
-}
-
-/* Calendar events */
-
-ol > li {
-  list-style-type: none;
-}
-
-/* Don't offset my lists */
-
-ol, ul {
-  margin-left: 0px;
+  line-height: 2.5em;
 }
 
 /* Sidenavs */

@@ -66,10 +66,7 @@ div(itemscope,itemtype='http://schema.org/person')
           = __i('specialties_title')
         p
           = __i('specialties')
-      .span3
-        img.img-polaroid(src='img/i_hate_this_profile_pic.jpg', width='260px', height='330px', alt='Carlos Iriarte', itemprop='image')
-    .row
-      .offset3.span9(itemscope,itemtype='http://schema.org/itemlist')
+        div(itemscope,itemtype='http://schema.org/itemlist')
         h2(itemprop='name')
           = __i('Skills')
         ul.skills
@@ -80,85 +77,96 @@ div(itemscope,itemtype='http://schema.org/person')
           li(itemprop='itemListElement'): a(href='//www.vim.org', rel='tooltip', title=__i('vim_tooltip')): code: | Vim
           li(itemprop='itemListElement'): a(href='//www.microsoft.com/visualstudio/en-us', rel='tooltip', title=__i('vs_studio_tooltip')): code: | Visual Studio 2012
           li(itemprop='itemListElement'): a(href='//www.nodejs.org', rel='tooltip', title=__i('nodejs_tooltip')): code: | nodejs
+          li(itemprop='itemListElement'): a(href='//www.ruby-lang.org', rel='tooltip', title=__i('ruby_tooltip')): code: | Ruby
+          li(itemprop='itemListElement'): a(href='//www.sinatrarb.com', rel='tooltip', title=__i('sinatra_tooltip')): code: | Sinatra
+          li(itemprop='itemListElement'): a(href='//www.padrinorb.com', rel='tooltip', title=__i('padrino_tooltip')): code: | Padrino
+          li(itemprop='itemListElement'): a(href='//www.freeswitch.org', rel='tooltip', title=__i('freeswitch_tooltip')): code: | Freeswitch
+          li(itemprop='itemListElement'): a(href='//datatracker.ietf.org/doc/rfc3261/', rel='tooltip', title=__i('sip_tooltip')): code: | SIP
+          li(itemprop='itemListElement'): a(href='//www.vxml.org', rel='tooltip', title=__i('vxml_tooltip')): code: | VXML
+          li(itemprop='itemListElement'): a(href='//www.ccxml.org', rel='tooltip', title=__i('ccxml_tooltip')): code: | CCXML
+      .span3
+        img.img-polaroid(src='img/i_hate_this_profile_pic.jpg', width='260px', height='330px', alt='Carlos Iriarte', itemprop='image')
+    .row
+      .offset3.span9 
         section#experience
-          h1
-           = __i('Experience')
-          div(itemscope, itemtype='http://schema.org/organization')
-            h2: | Lead Architect
-              small(itemprop='name')  Dial800 
-            |  Los Angeles, California, U.S.A. 
-            abbr(title='2008-09-19')
-              = __i('September 2008') 
-            |  - 
-            = __i('Present')
-            p
-              = __i('dial800_job_description')
-          div(itemscope, itemtype='http://schema.org/organization')
-            h2: | Sr. Software Engineer
-              small(itemprop='name')  Neoris 
-            |  Monterrey, Nuevo Le&oacute;n, M&eacute;xico 
-            abbr(title='2006-10-01')
-              = __i('October 2006') 
-            |  - 
-            abbr(title='2008-09-18')
-              = __i('September 2008')
-            p
-              = __i('neoris_job_description')
-          div(itemscope, itemtype='http://schema.org/organization')
-            h2: | Automation Engineer 
-              small(itemprop='name'): |  Tesis de M&eacute;xico
-            | Monterrey, Nuevo Le&oacute;n, M&eacute;xico 
-            abbr(title='2006-01-04')
-              = __i('January 2006')
-            |  - 
-            abbr(title='2006-10-01')
-              = __i('October 2006')
-            p
-              = __i('tesis_job_description')
-          div(itemscope, itemtype='http://schema.org/organization')
-            h2: | Teaching Assistant 
-              small(itemprop='name'): | Tecnol&oacute;gico de Monterrey
-            | Monterrey, Nuevo Le&oacute;n, M&eacute;xico 
-            abbr(title='2006-01-04')
-              = __i('January 2006') 
-            |  - 
-            abbr(title='2006-10-01')
-              = __i('October 2006')
-            p
-              = __i('itesm_job_description')
-          div(itemscope, itemtype='http://schema.org/organization')
-            h2: | Intern 
-              small(itemprop='name'): | Volkswagen, A.G.
-            | Wolfsburg, Niedersachsen, Germany 
-            abbr(title='2003-08-08')
-              = __i('August 2003')
-            |  - 
-            abbr(title='2004-02-27')
-              = __i('February 2004')
-            p
-              = __i('volkswagen_job_description')
-        section#education
-          h1
-            = __i('Education')
-            small: |  B.Sc. Mechatronics Engineering
-          div(itemscope, itemtype='http://schema.org/educationalorganization')
-            a(href='//www.itesm.edu/', itemprop='name') Tecnol&oacute;gico de Monterrey 
-            | Monterrey, Nuevo Le&oacute;n, M&eacute;xico 
-            abbr(title='2000-08-28'): | 2000
-            |  - 
-            abbr(title='2005-10-12'): | 2005
-          div(itemscope, itemtype='http://schema.org/educationalorganization')
-            a(href='//www.grenoble-pnp.fr/', itemprop='name') Institut Polytechnique de Grenoble 
-            | Grenoble, France 
-            abbr(title='2005-06-01'): | 2005
-            |  - 
-            abbr(title='2005-08-01'): | 2005
-          div(itemscope, itemtype='http://schema.org/educationalorganization')
-            a(href='//www.ostfalia.de/cms/de/campus/wf/index.html', itemprop='name') Fachhochschule Braunschweig/Wolfenbuettel 
-            | Wolfenbuettel, Germany 
-            abbr(title='2004-02-01'): | 2004
-            |  - 
-            abbr(title='2004-10-01'): | 2004
+           h1
+            = __i('Experience')
+           div(itemscope, itemtype='http://schema.org/organization')
+             h2: | Lead Architect
+               small(itemprop='name')  Dial800 
+             |  Los Angeles, California, U.S.A. 
+             abbr(title='2008-09-19')
+               = __i('September 2008') 
+             |  - 
+             = __i('Present')
+             p
+               = __i('dial800_job_description')
+           div(itemscope, itemtype='http://schema.org/organization')
+             h2: | Sr. Software Engineer
+               small(itemprop='name')  Neoris 
+             |  Monterrey, Nuevo Le&oacute;n, M&eacute;xico 
+             abbr(title='2006-10-01')
+               = __i('October 2006') 
+             |  - 
+             abbr(title='2008-09-18')
+               = __i('September 2008')
+             p
+               = __i('neoris_job_description')
+           div(itemscope, itemtype='http://schema.org/organization')
+             h2: | Automation Engineer 
+               small(itemprop='name'): |  Tesis de M&eacute;xico
+             | Monterrey, Nuevo Le&oacute;n, M&eacute;xico 
+             abbr(title='2006-01-04')
+               = __i('January 2006')
+             |  - 
+             abbr(title='2006-10-01')
+               = __i('October 2006')
+             p
+               = __i('tesis_job_description')
+           div(itemscope, itemtype='http://schema.org/organization')
+             h2: | Teaching Assistant 
+               small(itemprop='name'): | Tecnol&oacute;gico de Monterrey
+             | Monterrey, Nuevo Le&oacute;n, M&eacute;xico 
+             abbr(title='2006-01-04')
+               = __i('January 2006') 
+             |  - 
+             abbr(title='2006-10-01')
+               = __i('October 2006')
+             p
+               = __i('itesm_job_description')
+           div(itemscope, itemtype='http://schema.org/organization')
+             h2: | Intern 
+               small(itemprop='name'): | Volkswagen, A.G.
+             | Wolfsburg, Niedersachsen, Germany 
+             abbr(title='2003-08-08')
+               = __i('August 2003')
+             |  - 
+             abbr(title='2004-02-27')
+               = __i('February 2004')
+             p
+               = __i('volkswagen_job_description')
+         section#education
+           h1
+             = __i('Education')
+             small: |  B.Sc. Mechatronics Engineering
+           div(itemscope, itemtype='http://schema.org/educationalorganization')
+             a(href='//www.itesm.edu/', itemprop='name') Tecnol&oacute;gico de Monterrey 
+             | Monterrey, Nuevo Le&oacute;n, M&eacute;xico 
+             abbr(title='2000-08-28'): | 2000
+             |  - 
+             abbr(title='2005-10-12'): | 2005
+           div(itemscope, itemtype='http://schema.org/educationalorganization')
+             a(href='//www.grenoble-pnp.fr/', itemprop='name') Institut Polytechnique de Grenoble 
+             | Grenoble, France 
+             abbr(title='2005-06-01'): | 2005
+             |  - 
+             abbr(title='2005-08-01'): | 2005
+           div(itemscope, itemtype='http://schema.org/educationalorganization')
+             a(href='//www.ostfalia.de/cms/de/campus/wf/index.html', itemprop='name') Fachhochschule Braunschweig/Wolfenbuettel 
+             | Wolfenbuettel, Germany 
+             abbr(title='2004-02-01'): | 2004
+             |  - 
+             abbr(title='2004-10-01'): | 2004
     .row
       .navbar.navbar-bottom
         .navbar-inner
