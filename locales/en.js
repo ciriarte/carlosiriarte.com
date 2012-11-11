@@ -54,5 +54,7 @@
 	"freeswitch_tooltip": "One of the best OSS systems out there. WebRTC is coming!",
 	"sip_tooltip": "The bridge between telephony & the modern world",
 	"vxml_tooltip": "I seriously thought twice about listing it here. But hey, at least it's a standard",
-	"ccxml_tooltip": "And you thought you problems with major web browsers..."
+	"ccxml_tooltip": "And you thought you problems with major web browsers...",
+	"December 2005": "December 2005",
+	"August 2005": "August 2005"
 }
